@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GuessTheNumber</title>
+        <link rel = "stylesheet" href = "GuessTheNumber/GuessTheNumber.css">
+    </head>
+    <body>
+        <header class = "fill">
+            <h1 id = "title">Guess The Number</h1>
+            <a id = "home" href = "index.html"><strong>Home</strong></a>
+            <h2 id = "intro">Put your guessing skills to the test by trying to correctly guess the unknown number (1-100)</h2>
+        </header>
+
+        <form>
+            <h2>Guess The Number: </h2>
+            <input id = "user-guess" type="text" name="guessthenumber" maxlength="3"><br>
+            <h3 id = "submit">Guess</h3>
+        </form>
+
+        <div id = "result-box">
+            <h2 id = "moves-left">Guesses Left: 6</h2>
+            <h2 id = "big-result">Result: None</h2>
+        </div>
+
+        <div id = "winner-box">
+            <h1 id = "winner"></h1>
+        </div>
+
+        <div id = "reset-button">
+            <h2 id = "reset">Reset</h2>
+        </div>
+
+
+        <table id = "table-data" cellspacing = "0">
+            <thead>
+                <tr>
+                    <th id = "guess" width = "30%">Guess</th>
+                    <th id = "result" width = "70%">Result</th>
+                </tr>
+            </thead>
+        </table>
+
+        <script src="GuessTheNumber/GuessTheNumber.js"></script>
+    </body>
+</html>

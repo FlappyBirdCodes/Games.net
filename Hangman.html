@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman</title>
+        <link rel = "stylesheet" href = "Hangman/Hangman.css">
+    </head>
+    <body>
+
+        <header class = "fill">
+            <h1 id = "title">Hangman</h1>
+            <a id = "home" href = "index.html"><strong>Home</strong></a>
+            <h2 id = "intro">Use your language skills and try to guess the correct word before it's too late</h2>
+        </header>
+    
+        <div id = "random-word">
+            <h2 id = "subtitle">Hangman Word</h2>
+            <h2 id = "word"></h2>
+            <h3 id = "hint"></h2>
+        </div>
+    
+        <form class = "same-line">
+            <h2>Guess a letter/word: </h2>
+            <input id="guess" type="text" name="guessaletter"><br>
+            <h3 id = "submit">Guess</h3>
+        </form>
+
+        <div id = "result" class = "same-line">
+            <h2 id = "guesses-left">Guesses Left: 8</h2>
+            <h2 id = "letters-left">Letters Left: 10</h2>
+        </div>
+
+        <div id = "winner-box">
+            <h1 id = "winner"></h1>
+        </div>
+
+        <div id = "reset-button">
+            <h2 id = "reset">Reset</h2>
+        </div>
+
+        <script src = "Hangman/Hangman.js"></script>
+    </body>
+</html>

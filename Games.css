@@ -1,0 +1,156 @@
+.fill {
+    margin-left: -0.8%;
+    margin-right: -0.8%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    font-family: Helvetica, sans-serif;
+    background-color: cadetblue;
+    margin-top: -7%;
+    margin-right: -3%;
+    text-align: center;
+    position: relative;
+    padding-top: 1%;
+    padding-bottom: 0.1%;
+}
+
+#title {
+    font-size: 4.2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 2.5%;
+    color: white;
+}
+
+#sub-title {
+    font-size: 2.4vw;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -3.5%;
+}
+
+#contact {
+    font-size: 1.85vw;
+    width: 8%;
+    margin-left: 45%;
+    margin-top: -1%;
+    border: 3px solid black;
+    background-color: lightgray;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+#contact:hover {
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+body {
+    background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#games h2 {
+    font-size: 2.6vw;
+    color: darkslategray;
+}
+
+#games img {
+    width: 90%;
+    height: 20em;
+    margin-left: 5%;
+    padding-bottom: 1.5%;
+    margin-top: -5%;
+}
+
+#games p {
+    width: 95%;
+    font-size: 1.4vw;
+    margin-left: 1px;
+}
+
+#games div{
+    width: 25%;
+    height: 50%;
+    margin-left: 6.25%;
+    border: 3px solid black;
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    min-width: 100px;
+}
+
+#rock-paper-scissors {
+    background-color: darksalmon;
+}
+
+#rock-paper-scissors h2 {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#rock-paper-scissors p {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#hangman {
+    background-color: lightblue;
+}
+
+#hangman h2 {
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+#hangman p {
+    margin-top: 1.6%;
+    margin-left: 2.5%;
+}
+
+#guessthenumber {
+    background-color: indianred;
+}
+
+#guessthenumber h2 {
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+#guessthenumber p {
+    margin-left: 1.6%;
+    margin-top: 1%;
+}
+
+#play1 {
+    margin-left: 38%;
+}
+
+#play2 {
+    margin-left: 40%;
+}
+
+#play3 {
+    margin-left: 40%;
+}
+
+.play {
+    font-size: 1.7vw;
+    border: 3px solid black;
+    border-radius: 5%;
+    width: 17%;
+    padding-left: 3.5%;
+    background-color: lightgray;
+    color: black;
+}
+
+.play:hover {
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+
